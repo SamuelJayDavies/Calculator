@@ -1,0 +1,40 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.header {
+    background-color: rgb(66, 62, 62);
+    text-align: center;
+
+    font-size: 5em;
+    font-weight: bold;
+
+    margin-bottom: 1em;
+}
+
+.calculator-container {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    width: 36.5rem;
+    height: 50em;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 1em;
+
+    background-color: gray;
+
+    padding: 1em;
+}
+
+.calculator button {
+    width: 10em;
+    height: 10em;
+}
