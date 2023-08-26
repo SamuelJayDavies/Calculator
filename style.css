@@ -20,7 +20,7 @@ body {
 
 .calculator {
     width: 36.5rem;
-    height: 50em;
+    height: 60em;
 
     display: flex;
     flex-direction: row-reverse;
@@ -34,7 +34,37 @@ body {
     padding: 1em;
 }
 
+#clearBtn,
+    #resetBtn {
+    width: 17.75rem;
+}
+
 .calculator button {
-    width: 10em;
-    height: 10em;
+    font-size: 2em;
+
+    width: 4em;
+    height: 4em;
+
+    border-radius: 1em;
+    border-color: black;
+    border-style: solid;
+}
+
+.operatorBtn {
+    color: red;
+}
+
+.calculator textarea {
+    width: 36.5rem;
+    height: 4rem;
+
+    font-size: 4em;
+
+    text-align: end;
+
+    padding: 1rem;
+
+    border-radius: 1em;
+    border-color: black;
+    border-style: solid;
 }
