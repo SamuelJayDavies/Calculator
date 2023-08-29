@@ -51,7 +51,19 @@ textarea {
 
 #clearBtn,
     #resetBtn {
+    background-color: white;
+    transition: 1s;
     width: 17.75rem;
+}
+
+#clearBtn:hover {
+    background-color: #A40E4C;
+    transition: 1s;
+}
+
+#resetBtn:hover {
+    background-color: #A40E4C;
+    transition: 1s;
 }
 
 .calculator button {
