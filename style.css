@@ -45,6 +45,7 @@ textarea {
     border-radius: 1em;
     border-color: var(--calculator-border-colour);
     border-style: solid;
+    border-width: 0.25em;
 
     padding: 1em;
 }
@@ -57,13 +58,15 @@ textarea {
 }
 
 #clearBtn:hover {
+    color: white;
     background-color: #A40E4C;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 #resetBtn:hover {
+    color: white;
     background-color: #A40E4C;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .calculator button {
@@ -75,6 +78,12 @@ textarea {
     border-radius: 1em;
     border-color: black;
     border-style: solid;
+}
+
+.calculator button:hover {
+    color: white;
+    background-color: var(--calculator-border-colour);
+    transition: 0.25s;
 }
 
 .operatorBtn {
