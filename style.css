@@ -1,7 +1,8 @@
 html {
     min-height: 100%;
     --background-colour: #7698B3;
-    --calculator-colour: #2C2C54;
+    --calculator-colour: #D7A6B3;
+    --calculator-border-colour: #CF8BA3;
 }
 
 body {
@@ -14,7 +15,8 @@ textarea {
 }
 
 .header {
-    background-color: rgb(66, 62, 62);
+    color: white;
+    background-color: var(--background-colour);
     text-align: center;
 
     font-size: 5em;
@@ -41,6 +43,8 @@ textarea {
 
     background-color: var(--calculator-colour);
     border-radius: 1em;
+    border-color: var(--calculator-border-colour);
+    border-style: solid;
 
     padding: 1em;
 }
@@ -62,7 +66,7 @@ textarea {
 }
 
 .operatorBtn {
-    color: red;
+    color: var(--calculator-border-colour);
 }
 
 .calculator textarea {
