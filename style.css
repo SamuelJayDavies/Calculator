@@ -1,6 +1,16 @@
+html {
+    min-height: 100%;
+    --background-colour: #7698B3;
+    --calculator-colour: #2C2C54;
+}
+
 body {
     color: white;
-    background-color: black;
+    background-color: var(--background-colour);
+}
+
+textarea {
+    resize: none;
 }
 
 .header {
@@ -29,7 +39,8 @@ body {
 
     gap: 1em;
 
-    background-color: gray;
+    background-color: var(--calculator-colour);
+    border-radius: 1em;
 
     padding: 1em;
 }
@@ -67,4 +78,14 @@ body {
     border-radius: 1em;
     border-color: black;
     border-style: solid;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    padding: 1em;
 }

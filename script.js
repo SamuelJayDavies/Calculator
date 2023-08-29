@@ -42,7 +42,7 @@ resetBtn.addEventListener("click", () => {
     num1 = undefined;
     num2 = undefined;
     operator = undefined;
-    display.textContent = "";
+    display.textContent = ""; 
 })
 
 function updateDisplay(item) {
